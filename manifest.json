@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Video Controller",
+    "version": "1.0",
+    "description": "Detects video components and adds control buttons.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

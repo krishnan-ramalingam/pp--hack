@@ -1,0 +1,7 @@
+document.getElementById('add-controls').addEventListener('click', () => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        chrome.tabs.sendMessage(tabs[0].id, { action: 'addVideoControls' }, (response) => {
+            console.log(response);
+        });
+    });
+});
