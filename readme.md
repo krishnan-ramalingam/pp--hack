@@ -1,26 +1,64 @@
-# Video Enhancement Suite Chrome Extension
+# Video Accessibility Chrome Extension
 
-The Video Enhancement Suite is a powerful Chrome extension designed to enhance your video watching experience. It adds a suite of advanced controls and features to any video you're watching in your browser.
+## Overview
+Open-source extension enhancing video accessibility across platforms. Compatible with all browsers, devices, and major video players (YouTube, HTML5, Diksha learning portal).
 
-## Features
+## Key Features
 
-1. **Timestamp Management**: Add, edit, and jump to specific timestamps in the video.
-2. **Video Describe**: Get AI-generated descriptions of the current video frame using advanced image recognition.
-3. **Annotation Tools**: Draw and annotate directly on the video.
-4. **Audio Processing**: Adjust volume, apply noise filtering, boost voices, and enhance audio clarity.
-5. **Video Processing**: Modify brightness, contrast, saturation, exposure, hue, sharpness, and apply grayscale or invert filters.
-6. **Focus Mode**: Record and playback specific focus areas on the video.
-7. **Settings**: Export and import your configurations for easy sharing or backup.
+1. **Timestamp Markers**
+   - Add custom markers with titles and descriptions
+   - Quick navigation to marked sections
+   - Import/export timestamp data
 
-## Modules
+2. **Audio Customization**
+   - Noise reduction and voice boost
+   - Volume and clarity control
+   - Toggleable audio processing
 
-- **Timestamp Section**: Allows users to add, manage, and navigate timestamps.
-- **Describe Section**: Uses AI to generate descriptions of the current video frame.
-- **Annotation Section**: Provides tools for drawing and annotating on the video.
-- **Audio Section**: Offers audio processing controls.
-- **Video Section**: Provides video processing controls.
-- **Focus Section**: Enables recording and playback of focus areas.
-- **Settings Section**: Allows exporting and importing of configurations.
+3. **Video Enhancement**
+   - Adjust brightness, contrast, saturation, exposure
+   - Control hue, sharpness, grayscale, and color inversion
+   - Toggleable video processing
+
+4. **Annotation Tools**
+   - Add text, images, and shapes at specific timestamps
+   - Drawing tools (pencil, rectangle, circle, image)
+   - Edit, delete, and navigate annotations
+   - Import/export annotation data
+
+5. **Focus Mode**
+   - Create and record custom focus areas
+   - Playback of focus recordings
+   - Manage and organize recordings
+   - Import/export focus data
+
+6. **Video Description**
+   - AI-powered content description (using Moondream2 model)
+   - Text-to-speech for auditory feedback
+   - Custom description prompts
+
+7. **Settings and Configuration**
+   - Export/import all customizations
+   - Persistent user preferences
+
+8. **User Interface**
+   - Draggable, modular control panel
+   - Intuitive controls (sliders, toggles, buttons)
+   - Responsive layout
+
+## Technical Highlights
+- Export data in small files sizes for personalisation
+- JavaScript-based for broad compatibility
+- Canvas integration for drawing features
+- Web Audio API for advanced audio processing without affecting video
+- AI integration for video description
+- Local storage for user preferences to export data 
+
+## Future Enhancements
+- More AI model integrations to add caption in all languages
+- Link the visual describer module with device mic for voice inputs
+- Mapping shortcut keys for each section
+
 
 ## API Key
 
